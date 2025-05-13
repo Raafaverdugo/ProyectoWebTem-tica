@@ -1,0 +1,26 @@
+/* Colores personalizados */
+.bg-pink {
+    background-color: #f891c5 !important;
+}
+
+.text-pink {
+    color: #ff66b2 !important;
+}
+
+/* Estilo adicional para transiciones en secciones */
+section:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+/* Ajustes generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3c2fe;
+    color: #333;
+}
+
+a:hover {
+    color: #000 !important;
+    border-bottom: 2px solid white;
+}
