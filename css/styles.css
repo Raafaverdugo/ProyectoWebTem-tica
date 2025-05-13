@@ -1,26 +1,34 @@
 /* Colores personalizados */
 .bg-pink {
-    background-color: #f891c5 !important;
+  background-color: #f891c5 !important;
 }
 
 .text-pink {
-    color: #ff66b2 !important;
+  color: #ff66b2 !important;
 }
 
-/* Estilo adicional para transiciones en secciones */
+/* Efecto al pasar el mouse sobre secciones */
 section:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s ease;
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
 }
 
-/* Ajustes generales */
+/* Tipografía y fondo general */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f3c2fe;
-    color: #333;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3c2fe;
+  color: #333;
 }
 
+/* Imagen del creador - más pequeña */
+.creator-img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+}
+
+/* Enlaces */
 a:hover {
-    color: #000 !important;
-    border-bottom: 2px solid white;
+  color: #000 !important;
+  border-bottom: 2px solid white;
 }
