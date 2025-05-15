@@ -1,6 +1,6 @@
 /* Colores personalizados */
 .bg-pink {
-  background-color: #f891c5 !important;
+  background-color: #B9205B !important; /*Color del titulo*/
 }
 
 .text-pink {
@@ -18,13 +18,14 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #f3c2fe;
   color: #333;
+  margin: 20px;
 }
 
 /* Imagen del creador - más pequeña */
 .creator-img {
   max-width: 180px;
   width: 100%;
-  height: auto;
+  height: 200px;
 }
 
 /* Enlaces */
