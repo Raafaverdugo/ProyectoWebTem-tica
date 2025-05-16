@@ -21,6 +21,8 @@ body {
   margin: 20px;
 }
 
+
+
 /* Imagen del creador - más pequeña */
 .creator-img {
   max-width: 180px;
@@ -52,18 +54,18 @@ a:hover {
 }
 
 .carrusel img {
-    height: 150px;
-    width: 210px;
+    height: 160px;
+    width: 220px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.214);
 }
 
 @keyframes scroll {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 
