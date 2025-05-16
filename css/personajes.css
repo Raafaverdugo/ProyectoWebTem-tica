@@ -24,7 +24,7 @@ a:hover {
   transform: rotateY(180deg);
 }
 
-.flip-front, .flip-back {
+.flip-front, .flip-back1 {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -34,19 +34,117 @@ a:hover {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.flip-front img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.flip-back {
-  background-color: #ff0084;
+.flip-back1 {
+  background-color: #a9e6f2;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px;
+}
+
+.flip-front, .flip-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.flip-back2 {
+  background-color: #e49eb7;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.flip-front, .flip-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.flip-back3 {
+  background-color: #d0a2fc;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+
+.flip-front, .flip-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.flip-back4 {
+  background-color: #9fa039;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+
+.flip-front, .flip-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.flip-back5 {
+  background-color: #f8d216;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+
+.flip-front, .flip-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.flip-back6 {
+  background-color: #dc6d92;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+.flip-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Ajuste de imagen: que se vea completa sin recorte */
