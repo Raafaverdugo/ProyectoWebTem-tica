@@ -1,7 +1,12 @@
-
 .bg-pink {
   background-color: #B9205B !important; 
 }
+
+a:hover {
+  color: #000000 !important;
+  border-bottom: 2px solid white;
+}
+
 .flip-card {
   perspective: 1000px;
   cursor: pointer;
