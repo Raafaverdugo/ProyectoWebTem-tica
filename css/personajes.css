@@ -41,7 +41,7 @@ a:hover {
 }
 
 .flip-back {
-  background-color: #ffe0f0;
+  background-color: #ff0084;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -67,4 +67,21 @@ a:hover {
 /* Aplica la animación a cada tarjeta */
 .flip-card {
   animation: flotar 3s ease-in-out infinite;
+}
+
+
+.falling-object {
+  position: fixed;
+  top: -50px;
+  font-size: 24px;
+  pointer-events: none;
+  animation: fall linear forwards;
+  z-index: 9999;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
 }
