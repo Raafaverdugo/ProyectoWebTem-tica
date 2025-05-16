@@ -8,13 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
 document.addEventListener("DOMContentLoaded", () => {
   function createFallingObject() {
     const obj = document.createElement("div");
     obj.classList.add("falling-object");
     
     // Usa el ícono que quieras: pétalo, estrella, etc.
-    obj.textContent = "🌸"; // Puedes cambiar a: "✨", "💖", "⭐", "🧚", etc.
+    obj.textContent = "🧚"; // Puedes cambiar a: "✨", "💖", "⭐", "🧚", etc.
     
     obj.style.left = Math.random() * 100 + "vw";
     obj.style.animationDuration = 4 + Math.random() * 3 + "s";
@@ -31,4 +32,3 @@ document.addEventListener("DOMContentLoaded", () => {
   // Crear objetos cayendo cada cierto tiempo
   setInterval(createFallingObject, 300);
 });
-
