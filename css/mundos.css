@@ -70,3 +70,11 @@ a:hover {
   color: #000 !important;
   border-bottom: 2px solid white;
 }
+
+
+footer p {
+  text-align: center;
+  margin: 5px;
+}
+
+
