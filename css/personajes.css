@@ -3,12 +3,12 @@ body {
   font-family: 'Arial', sans-serif;
   color: #333;
   background: linear-gradient(135deg,
-    #a9e6f2,
-    #e49eb7,
-    #d0a2fc,
-    #9fa039,
-    #f8d216,
-    #dc6d92
+    #62CEDF,
+    #EA99C0,
+    #D3A5FC,
+    #A1A03B,
+    #FCD509,
+    #E71E5B
   );
   background-size: 600% 600%;
   animation: gradientMove 20s ease infinite;
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .flip-back1 {
-  background-color: #a9e6f2;
+  background-color: #62CEDF;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .flip-back2 {
-  background-color: #e49eb7;
+  background-color: #EA99C0;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .flip-back3 {
-  background-color: #d0a2fc;
+  background-color: #D3A5FC;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -115,7 +115,7 @@ a:hover {
 }
 
 .flip-back4 {
-  background-color: #9fa039;
+  background-color: #A1A03B;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@ a:hover {
 }
 
 .flip-back5 {
-  background-color: #f8d216;
+  background-color: #FCD509;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .flip-back6 {
-  background-color: #dc6d92;
+  background-color: #E71E5B;
   transform: rotateY(180deg);
   display: flex;
   align-items: center;

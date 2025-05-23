@@ -42,7 +42,7 @@ a:hover {
 }
 
 .flip-back1 {
-  background-color: #a9e6f2;
+  background-color: #62CEDF;
   transform: rotateX(180deg);
   display: flex;
   align-items: center;
@@ -61,7 +61,7 @@ a:hover {
 }
 
 .flip-back2 {
-  background-color: #e49eb7;
+  background-color: #EA99C0;
   transform: rotateX(180deg);
   display: flex;
   align-items: center;
@@ -80,7 +80,7 @@ a:hover {
 }
 
 .flip-back3 {
-  background-color: #d0a2fc;
+  background-color: #D3A5FC;
   transform: rotateX(180deg);
   display: flex;
   align-items: center;
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .flip-back4 {
-  background-color: #9fa039;
+  background-color: #A1A03B;
   transform: rotateX(180deg);
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@ a:hover {
 }
 
 .flip-back5 {
-  background-color: #f8d216;
+  background-color: #FCD509;
   transform: rotateX(180deg);
   display: flex;
   align-items: center;
@@ -140,7 +140,7 @@ a:hover {
 }
 
 .flip-back6 {
-  background-color: #dc6d92;
+  background-color: #E71E5B;
   transform: rotateX(180deg);
   display: flex;
   align-items: center;
