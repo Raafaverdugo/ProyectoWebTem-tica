@@ -15,7 +15,7 @@ body {
 }
 
 .mundo {
-  border: 2px solid #f891c5;
+  border: 2px solid #B9205B;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s ease;
@@ -24,7 +24,7 @@ body {
 .mundo-titulo {
   width: 100%;
   text-align: left;
-  background-color: #f891c5;
+  background-color: #B9205B;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -36,7 +36,7 @@ body {
 }
 
 .mundo-titulo:hover {
-  background-color: #ff66b2;
+  background-color: #d34f81;
 }
 
 .mundo-descripcion {
