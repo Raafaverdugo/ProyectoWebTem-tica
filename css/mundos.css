@@ -4,8 +4,9 @@ body {
   color: #333;
   background-image: url(../resources/fondoMundo.jpg);
   background-repeat: no-repeat;
-  background-size: cover;    
+  background-size: contain;    
   background-position: center;
+  cursor: url('../resources/estrella.png'), auto;
 }
 
 .bg-pink {

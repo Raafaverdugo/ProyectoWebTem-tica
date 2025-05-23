@@ -12,6 +12,7 @@ body {
   );
   background-size: 600% 600%;
   animation: gradientMove 20s ease infinite;
+  cursor: url('../resources/estrella.png'), auto;
 }
 
 
