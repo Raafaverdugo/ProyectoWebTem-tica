@@ -2,7 +2,6 @@
 body {
   font-family: 'Arial', sans-serif;
   color: #333;
-  margin: 20px;
 }
 
 .bg-pink {
@@ -75,6 +74,7 @@ a:hover {
 footer p {
   text-align: center;
   margin: 5px;
+  padding: 4px;
 }
 
 
