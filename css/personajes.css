@@ -1,9 +1,19 @@
 /* Tipografía y fondo general */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #B9205B;
   color: #333;
+  background: linear-gradient(135deg,
+    #a9e6f2,
+    #e49eb7,
+    #d0a2fc,
+    #9fa039,
+    #f8d216,
+    #dc6d92
+  );
+  background-size: 600% 600%;
+  animation: gradientMove 20s ease infinite;
 }
+
 
 .bg-pink {
   background-color: #B9205B !important; 
@@ -12,6 +22,10 @@ body {
 a:hover {
   color: #000000 !important;
   border-bottom: 2px solid white;
+}
+
+.fondotarjeta{
+  background-color: #ffffffaf;
 }
 
 .flip-card {
@@ -189,6 +203,12 @@ a:hover {
     transform: translateY(110vh) rotate(360deg);
     opacity: 0;
   }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 
