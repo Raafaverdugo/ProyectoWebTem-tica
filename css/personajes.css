@@ -24,10 +24,6 @@ a:hover {
   border-bottom: 2px solid white;
 }
 
-.fondotarjeta{
-  background-color: #ffffffaf;
-}
-
 .flip-card {
   perspective: 1000px;
   cursor: pointer;
@@ -40,6 +36,11 @@ a:hover {
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
+
+.flip-front {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 
 .flip-card.flipped .flip-inner {
   transform: rotateY(180deg);
