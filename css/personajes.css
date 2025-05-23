@@ -191,3 +191,11 @@ a:hover {
     opacity: 0;
   }
 }
+
+
+footer p {
+  text-align: center;
+  margin: 5px;
+}
+
+
