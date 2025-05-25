@@ -6,11 +6,13 @@
   <title>Winx Club</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="../ProyectoWebTem-tica-1/resources/logo2Winx.png">
+  <script defer src="js/index.js"></script>
+  <!-- Icono del sitio -->
+  <link rel="icon" href="/resources/logo2Winx.png">
 </head>
 <body class="bg-light">
 
-  <!-- Header -->
+  <!-- Header con título y menú -->
   <header class="bg-pink text-white text-center py-4">
     <div class="container">
       <h1 class="display-6 fw-bold">Winx Club</h1>
@@ -22,76 +24,77 @@
     </div>
   </header>
 
-
+  <!-- Carrusel de imágenes (repetido para efecto infinito) -->
   <div class="carrusel-container">
-      <section class="carrusel">
-        <img id="foto1" src="resources/foto1Winx.webp">
-        <img id="foto2" src="resources/foto2Winx.jpg">
-        <img id="foto3" src="resources/foto3Winx.jpg">
-        <img id="foto4" src="resources/foto4Winx.webp">
-        <img id="foto5" src="resources/foto5Winx.webp">
-        <img id="foto6" src="resources/foto6Winx.webp">
-        <img id="foto7" src="resources/foto7Winx.jpg">
-        <img id="foto8" src="resources/foto8Winx.webp">
-        
-        <img id="foto1" src="resources/foto1Winx.webp">
-        <img id="foto2" src="resources/foto2Winx.jpg">
-        <img id="foto3" src="resources/foto3Winx.jpg">
-        <img id="foto4" src="resources/foto4Winx.webp">
-        <img id="foto5" src="resources/foto5Winx.webp">
-        <img id="foto6" src="resources/foto6Winx.webp">
-        <img id="foto7" src="resources/foto7Winx.jpg">
-        <img id="foto8" src="resources/foto8Winx.webp">
-      </section>
+    <section class="carrusel">
+      <img id="foto1" src="resources/foto1Winx.webp">
+      <img id="foto2" src="resources/foto2Winx.jpg">
+      <img id="foto3" src="resources/foto3Winx.jpg">
+      <img id="foto4" src="resources/foto4Winx.webp">
+      <img id="foto5" src="resources/foto5Winx.webp">
+      <img id="foto6" src="resources/foto6Winx.webp">
+      <img id="foto7" src="resources/foto7Winx.jpg">
+      <img id="foto8" src="resources/foto8Winx.webp">
+      
+      <img id="foto1" src="resources/foto1Winx.webp">
+      <img id="foto2" src="resources/foto2Winx.jpg">
+      <img id="foto3" src="resources/foto3Winx.jpg">
+      <img id="foto4" src="resources/foto4Winx.webp">
+      <img id="foto5" src="resources/foto5Winx.webp">
+      <img id="foto6" src="resources/foto6Winx.webp">
+      <img id="foto7" src="resources/foto7Winx.jpg">
+      <img id="foto8" src="resources/foto8Winx.webp">
+    </section>
   </div>
 
-
-  <!-- ¿Qué son las Winx? -->
+  <!-- Sección: ¿Qué son las Winx? -->
   <section class="container my-5 bg-white p-4 rounded shadow">
     <h2 class="text-pink mb-3">¿Quienes son las Winx?</h2>
-    <p>
-      Las Winx son un grupo de seis chicas, cada una con poderes especiales que las hacen únicas. 
+    <p>Las Winx son un grupo de seis chicas, cada una con poderes especiales que las hacen únicas. 
       A lo largo de la serie, ellas luchan contra las fuerzas del mal mientras viven aventuras en la 
       escuela Alfea, donde aprenden a controlar sus habilidades mágicas. La serie es un éxito entre los 
-      jóvenes por su mezcla de magia, amistad y diversión.
-    </p>
+      jóvenes por su mezcla de magia, amistad y diversión.</p>
     <a href="https://es.wikipedia.org/wiki/Winx_Club" target="_blank" class="wiki">Ver más</a>
-    <a href="https://www.google.com/search?sca_esv=5509ed245b268fe8&rlz=1C1CHBF_esES926ES926&q=cancion+de+las+winx&udm=7&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQ33KVMWSawhpRB5XP_HUyXM2Vjh1M3qUCnwB-nb57b0m-_wC6bCClqNe3ElGBZ-OxuQv_AacRGL3hLE1bFmhAqI2PDjAI7-iBzbmpg-19Gyd8suJaahoz8F2iFK5bwec_-wMZa00Xb6gJ7pw15QP8FlWb2YGEWGrGLF0lt27cn8Ij4nxt&sa=X&sqi=2&ved=2ahUKEwiPnOHizbuNAxWzYEEAHT_MCAwQtKgLegQIERAB&biw=724&bih=695&dpr=1.25#fpstate=ive&vld=cid:eddb78b1,vid:XlqCo0SsAiM,st:0" target="_blank" class="cancion">Canción</a>
+    <button id="btnCancion" class="cancion">Reproducir Canción</button>
+    <audio id="Cancion" src="resources/Cancion.mp4"></audio>
   </section>
 
-  <!-- El Creador -->
+  <!-- Sección: Creador -->
   <section class="container my-5 bg-white p-4 rounded shadow">
     <div class="row align-items-center gy-4">
       <div class="col-12 col-md-4 text-center">
         <img src="resources/creador.png" alt="Iginio Straffi" class="img-fluid rounded creator-img">
       </div>
       <div class="col-12 col-md-8">
+<<<<<<< HEAD
         <h2 class="text-pink mb-3">El creador de las Winx</h2>
         <p>
           La serie fue creada por Iginio Straffi, un animador y director italiano. 
+=======
+        <h2 class="text-pink mb-3">El Creador de las Winx</h2>
+        <p>La serie fue creada por Iginio Straffi, un animador y director italiano. 
+>>>>>>> 0c06befe3a128e7b5cf53ec8406764cd9770a381
           Straffi desarrolló la idea de las Winx en 2004, y la primera temporada de la serie se 
           estrenó ese mismo año. La idea surgió de su pasión por el género de las "chicas mágicas" y 
-          su deseo de crear algo innovador para el público joven.
-        </p>
+          su deseo de crear algo innovador para el público joven.</p>
       </div>
     </div>
   </section>
 
-  <!-- Resumen -->
+  <!-- Sección: Resumen -->
   <section class="container my-5 bg-white p-4 rounded shadow">
     <h2 class="text-pink mb-3">Resumen de la serie</h2>
-    <p>
-      A lo largo de sus temporadas, las Winx evolucionan no solo en poder, sino también como personas. 
+    <p>A lo largo de sus temporadas, las Winx evolucionan no solo en poder, sino también como personas. 
       Enfrentan villanos como las Trix, Valtor, y más, mientras descubren sus orígenes y fortalecen su 
       amistad. La serie combina acción mágica, moda, romance y aventura. Prueba de commit hgty
-      amistad. La serie combina acción mágica, moda, romance y aventura.
-    </p>
+      amistad. La serie combina acción mágica, moda, romance y aventura.</p>
   </section>
 
-  <!-- Footer -->
+  <!-- Footer con créditos -->
   <footer class="bg-pink text-white text-center py-1">
     <p class="mb-0">&copy; 2025 Las Winx. Todos los derechos reservados.</p>
     <p>Creado por <a href="https://github.com/Raafaverdugo" target="_blank" class="text-white">Rafael Verdugo</a> y <a href="https://github.com/Elenamena" target="_blank" class="text-white">Elena Mena</a></p>
   </footer>
+
 </body>
-</html>
+</html> 

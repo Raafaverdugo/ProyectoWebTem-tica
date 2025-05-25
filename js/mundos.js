@@ -1,3 +1,5 @@
+"use strict"; 
+
 document.addEventListener("DOMContentLoaded", () => {
   const botones = document.querySelectorAll(".mundo-titulo");
 
