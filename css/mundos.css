@@ -1,3 +1,8 @@
+/* === Título personalizado === */
+h1{
+  font-family: "Poetsen One", sans-serif;
+}
+
 /* Tipografía y fondo general */
 body {
   font-family: 'Arial', sans-serif;

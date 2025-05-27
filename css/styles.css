@@ -1,3 +1,9 @@
+/* === Título personalizado === */
+h1{
+  font-family: "Poetsen One", sans-serif;
+}
+
+
 /* === Colores personalizados === */
 .bg-pink {
   background-color: #B9205B !important; /* Fondo rosa fuerte (para header y footer) */
